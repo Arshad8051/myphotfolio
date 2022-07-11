@@ -1,0 +1,246 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url("/c-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  header {
+    height: 100vh;
+    width: 100%;
+  }
+  nav {
+    height: 5vh;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    z-index: 5;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin: 0 5px; */
+    justify-content: center;
+    /* background-color: pink; */
+  
+    height: 100%;
+    margin: 2px 5px;
+  }
+  nav ul span {
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 20px;
+    transition: all o.5s ease-in-out;
+    color: blanchedalmond;
+  }
+  nav ul span:hover {
+    padding: 10px;
+    border-radius: 10px 0px;
+    color: purple;
+  }
+
+  .intro {
+   
+    top: 30vh;
+    left: 70px;
+    padding: 8px;
+    font-size: 60px;
+    position: absolute;
+    color: seashell;
+   
+  }
+  a {
+    text-decoration: none;
+    transition: color 0.1 ease-in;
+   
+  }
+  .intro b {
+    color: purple;
+  }
+  .my_work{
+      color: white;
+      padding: 8px 20px;
+      position: relative;
+      background-color: black;
+  }
+  .my_work:hover{
+      background-color: purple;
+      height: 40px;
+      width: 130px;
+  }
+
+
+
+  .aboutsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  background-color: transparent;
+     padding: 50px 0 50px 0;
+     height: 90vh;
+  }
+  
+  
+  .about {
+    width: 100%;
+    height: 60px;
+    font-size: 60px;
+    padding: 30px 0;
+    color: purple;
+    margin-top: 1%;
+  }
+  
+  .about_data {
+    width: 60%;
+    color: white;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 30px;
+  }
+
+
+  /* my project section */
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 50px 0;
+  height: 90vh;
+  color: aliceblue;
+}
+
+
+.my_projects {
+  width: 100%;
+  height: 30px;
+  
+  font-size: 60px;
+  padding: 30px 0;
+  color: purple;
+}
+
+
+.project_details{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  height: 60vh;
+  color: white;
+}
+
+
+.all_Project {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.all_Project div {
+  padding: 10px;
+  margin: 1px;
+  width: 100%;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: medium;
+}
+
+
+.aboutProject {
+  align-items: center;
+  width: 60%;
+  height: 188px;
+  display: flex;
+}
+
+
+.skill{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+  
+
+.skills_heading{
+  width: 100%;
+  height: 60px;
+  background: transparent;
+  font-size: 60px;
+  padding: 30px 0;
+  color: purple;
+}
+
+.all_skills{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.all_skills div{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+.all_skills div div{
+  padding: 11px 15px;
+  background-color: purple;
+  margin: 5px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.contact_heading{
+  width: 100%;
+  height: 60px;
+  background: transparent;
+  font-size: 60px;
+  padding: 30px 0;
+  color: purple;
+  margin: 50px;
+}
+
+.contact_pic{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.contact_info{
+  font-size: 25px;
+  color: seashell;
+}
+
+footer{
+  background-color: purple;
+  font-size: 10px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  text-align: center;
+  height: 5vh;
+}
+@media screen and (max-width:600px){
+  .intro{
+    font-size: 30px;
+
+  }
+  .about_data{
+    font-size: 20px;
+  }
+  
+  
+}
